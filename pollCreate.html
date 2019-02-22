@@ -1,0 +1,38 @@
+<html>
+<head>
+<link rel = "stylesheet" href = "fancyPoll.css" >
+
+</head>
+
+<body>
+<div class = "container">
+<div id = "newPoll">
+<h1> Create a Poll:</h1>
+
+<!-- Simple Form Page That provides the user with one text box for the question
+and then has 6 openings for the answer choices but not all have to be used--> 
+<form action = "pollCreate.php" method = "post">
+<h3> Question: <input type="text" name="question"> </h3> <br>
+
+<span> Answer#1 </span><input type="text" name="ans1"> <br>
+<span> Answer#2 </span><input type="text" name="ans2"> <br>
+<span> Answer#3 </span><input type="text" name="ans3"> <br>
+<span> Answer#4 </span><input type="text" name="ans4"> <br>
+<span> Answer#5 </span><input type="text" name="ans5"> <br>
+<span> Answer#6 </span><input type="text" name="ans6"> <br>
+<span> <strong>(No Contractions)</strong><span><br>
+<br>
+<button type="submit">Create</button>
+</form>
+</div>
+</div>
+</div>
+<a href = "/poll/pollHome.html">
+<button > Home</button>
+</a>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+head {
+	font-size: 200%;
+}
+body {
+	background-color: #EFF0F0;
+	font-size: 120%;
+}
+h1 {
+	padding: 8px;
+	text-align: center;
+	background-color: #4CAF50;
+	color: white;
+	border-bottom: 2px solid black;
+}
+button {
+	background-color: #0155FE;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	text-align: center;
+	padding: 15px 32px;
+	display: inline-block;
+	font-size: 16px;
+}
+button:hover {
+	background-color: #0140BF;
+}
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 30px;
+  border: 4px solid #B0C4DE;
+  background: lightgreen;
+  border-radius: 0px 0px 10px 10px;
+}
+form, .input {
+	width: 100%;
+	clear: both;
+}
+table, td {
+	padding: 6px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th {
+	font-size: 120%;
+	border: 1px solid black;
+	padding: 12px;
+	background-color: #4CAF50;
+	color: white;
+}
+tr:nth-child(even) {
+	background-color: #D0FEDE;
+}
+
+.containerBar {
+	width: 100%;
+	text-align: center;
+	margin: 50;
+	padding: 0;
+	background-color: white;
+	
+}
+
+.submitButton {
+	background-color: #0155FE;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	text-align: center;
+	padding: 12px 29px;
+	display: inline-block;
+	font-size: 16px;	
+	
+}
+
+.bar {
+	float: left;
+	height: 400px;
+	width: 200px;
+	margin-right: 25px;
+	background-color: #4CAF50;
+}
+	
+.progressFill {
+	
+	background-color: #aeaeae;
+	color: white;
+	text-align: center;
+	font-family: "Comic-Sans" sans-serif;
+}
+
+#graphButton {
+	position: relative;
+	top: 50px;
+	
+}
